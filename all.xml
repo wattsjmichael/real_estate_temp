@@ -1,0 +1,293 @@
+<krpano>
+	<include if="mode == 'tour'" url="default_tour.xml" />
+	<data name="floor_map" type="json"><![CDATA[
+	{
+		"2": {"sort":3,"spawn":"GS__0021","angle":-42,"elev":300,"stairs":{},"map":{"name":"maps/floor_1.png","scale":5.06,"mm_scale":0.05,"offset_x":0 ,"offset_y":0}},
+		"1": {"sort":4,"spawn":"GS__0002","angle":-42,"elev":0,"stairs":{},"map":{"name":"maps/Floor_1.png","scale":5.06,"mm_scale":0.05,"offset_x":0 ,"offset_y":0}}
+		
+		
+	}
+]]>	</data>
+
+	<action name="make_sym_links" scope="local">
+		<!-- Floor 25 -->
+		<!-- make_symbolic_link("gs__4833","gs__4845"); -->
+
+			make_symbolic_link("gs__0020","gs__0010");
+			make_symbolic_link("gs__0021","gs__0016");
+
+
+	</action>
+
+  <!--FLOOR 1-->
+<!-- #region -->
+
+
+
+<!-- <scene name="GS__5101" floor_id="1">
+<preview url="panos/GS__5101.tiles/preview.jpg" />
+<image prealign="0|226.7|0">
+<cube url="panos/GS__5101.tiles/pano_%s.jpg" />
+</image>
+<hotspot name="GS__5102" style="floorspot" linkedscene="GS__5102" tx="494" tz="503" />
+<hotspot name="GS__5127" style="floorspot" linkedscene="GS__5127" tx="-461" tz="-459" />
+<hotspot name="start_tour" style="blank" atv="3" ath="-1"/>
+<hotspot name="pause_play" style="blank" fov="120" atv="3" ath="-1" next="rewind"/>
+<hotspot name="rewind" style="blank" fov="120" atv="3" ath="-1" next="tour_home" />
+<hotspot name="tour_home" style="blank" fov="120" atv="3" ath="-1" next="tour_toggle" />
+<hotspot name="tour_toggle" style="blank" fov="120" atv="3" ath="-1" next="hardware_chooser"/>
+<hotspot name="hardware_chooser" style="blank" fov="120" atv="3" ath="-1" />
+<hotspot name="desktop_intro" style="blank" fov="120" atv="3" ath="-1" next="desk_zoom"/>
+<hotspot name="desk_zoom" style="blank" fov="120" atv="3" ath="-1" next="desk_hud"/>
+<hotspot name="desk_hud" style="blank" fov="120" atv="3" ath="-1" next="desk_portals"/>
+<hotspot name="desk_portals" style="blank" fov="120" atv="3" ath="-1" next="floor_chooser"/>
+<hotspot name="mobile_intro" style="blank" fov="120" atv="3" ath="-1" next="mobile_zoom"/>
+<hotspot name="mobile_zoom" style="blank" fov="120" atv="3" ath="-1" next="mobile_hud"/>
+<hotspot name="mobile_hud" style="blank" fov="120" atv="3" ath="-1" next="mobile_portal"/>
+<hotspot name="mobile_portal" style="blank" fov="120" atv="3" ath="-1" next="floor_chooser"/>
+<hotspot name="floor_chooser" style="blank" fov="120" atv="3" ath="-1" />
+</scene> -->
+
+
+<!-- SCENES -->
+<!-- #region -->
+<!-- <scene name="GS__0001" floor_id="1" >
+<preview url="panos/GS__0001.tiles/preview.jpg" />
+<image prealign="0|0|0">
+<cube url="panos/GS__0001.tiles/pano_%s.jpg" />
+</image>
+<hotspot name="GS__0002" style="floorspot" linkedscene="GS__0002" tx="0" tz="0" />
+</scene> -->
+
+
+<scene name="GS__0002" floor_id="1" >
+<preview url="panos/GS__0002.tiles/preview.jpg" />
+<image prealign="0|0|0">
+<cube url="panos/GS__0002.tiles/pano_%s.jpg" />
+</image>
+<hotspot name="GS__0003" style="floorspot" linkedscene="GS__0003" tx="543" tz="3" />
+</scene>
+
+
+<scene name="GS__0003" floor_id="1" >
+<preview url="panos/GS__0003.tiles/preview.jpg" />
+<image prealign="0|-8.3|0">
+<cube url="panos/GS__0003.tiles/pano_%s.jpg" />
+</image>
+<hotspot name="GS__0004" style="floorspot" linkedscene="GS__0004" tx="33" tz="-727" />
+</scene>
+
+
+<scene name="GS__0004" floor_id="1" >
+<preview url="panos/GS__0004.tiles/preview.jpg" />
+<image prealign="0|-19.3|0">
+<cube url="panos/GS__0004.tiles/pano_%s.jpg" />
+</image>
+<hotspot name="GS__0005" style="floorspot" linkedscene="GS__0005" tx="638" tz="165" />
+</scene>
+
+
+<scene name="GS__0005" floor_id="1" >
+<preview url="panos/GS__0005.tiles/preview.jpg" />
+<image prealign="0|-38.3|0">
+<cube url="panos/GS__0005.tiles/pano_%s.jpg" />
+</image>
+<hotspot name="GS__0006" style="floorspot" linkedscene="GS__0006" tx="22" tz="-517" />
+</scene>
+
+
+<scene name="GS__0006" floor_id="1" >
+<preview url="panos/GS__0006.tiles/preview.jpg" />
+<image prealign="0|2.3|0">
+<cube url="panos/GS__0006.tiles/pano_%s.jpg" />
+</image>
+<hotspot name="GS__0007" style="floorspot" linkedscene="GS__0007" tx="-495" tz="-723" />
+</scene>
+
+
+<scene name="GS__0007" floor_id="1" >
+<preview url="panos/GS__0007.tiles/preview.jpg" />
+<image prealign="0|36.2|0">
+<cube url="panos/GS__0007.tiles/pano_%s.jpg" />
+</image>
+<hotspot name="GS__0008" style="floorspot" linkedscene="GS__0008" tx="-481" tz="-135" />
+</scene>
+
+
+<scene name="GS__0008" floor_id="1" >
+<preview url="panos/GS__0008.tiles/preview.jpg" />
+<image prealign="0|57.9|0">
+<cube url="panos/GS__0008.tiles/pano_%s.jpg" />
+</image>
+<hotspot name="GS__0009" style="floorspot" linkedscene="GS__0009" tx="-370" tz="-64" />
+<hotspot name="GS__0010" style="floorspot" linkedscene="GS__0010" tx="-18" tz="290" />
+</scene>
+
+
+<scene name="GS__0009" floor_id="1" >
+<preview url="panos/GS__0009.tiles/preview.jpg" />
+<image prealign="0|61.9|0">
+<cube url="panos/GS__0009.tiles/pano_%s.jpg" />
+</image>
+<!-- <hotspot name="GS__0010" style="floorspot" linkedscene="GS__0010" tx="0" tz="0" /> -->
+</scene>
+
+
+<scene name="GS__0010" floor_id="1" >
+<preview url="panos/GS__0010.tiles/preview.jpg" />
+<image prealign="4|143.1|0">
+<cube url="panos/GS__0010.tiles/pano_%s.jpg" />
+</image>
+<hotspot name="GS__0011" style="floorspot" linkedscene="GS__0011" tx="-70" tz="346" />
+</scene>
+
+
+<scene name="GS__0011" floor_id="1" >
+<preview url="panos/GS__0011.tiles/preview.jpg" />
+<image prealign="0|155.3|0">
+<cube url="panos/GS__0011.tiles/pano_%s.jpg" />
+</image>
+<hotspot name="GS__0012" style="floorspot" linkedscene="GS__0012" tx="-31" tz="270" />
+</scene>
+
+
+<scene name="GS__0012" floor_id="1" >
+<preview url="panos/GS__0012.tiles/preview.jpg" />
+<image prealign="0|213.7|0">
+<cube url="panos/GS__0012.tiles/pano_%s.jpg" />
+</image>
+<hotspot name="GS__0014" style="floorspot" linkedscene="GS__0014" tx="472" tz="-35" />
+<hotspot name="GS__0016" style="floorspot" linkedscene="GS__0016" tx="-402" tz="80" />
+</scene>
+
+
+<!-- <scene name="GS__0013" floor_id="1" >
+<preview url="panos/GS__0013.tiles/preview.jpg" />
+<image prealign="0|0|0">
+<cube url="panos/GS__0013.tiles/pano_%s.jpg" />
+</image>
+<hotspot name="GS__0014" style="floorspot" linkedscene="GS__0014" tx="0" tz="0" />
+</scene> -->
+
+
+<scene name="GS__0014" floor_id="1" >
+<preview url="panos/GS__0014.tiles/preview.jpg" />
+<image prealign="4|221.6|0">
+<cube url="panos/GS__0014.tiles/pano_%s.jpg" />
+</image>
+<hotspot name="GS__0015" style="floorspot" linkedscene="GS__0015" tx="157" tz="-234" />
+</scene>
+
+
+<scene name="GS__0015" floor_id="1" >
+<preview url="panos/GS__0015.tiles/preview.jpg" />
+<image prealign="0|232.9|0">
+<cube url="panos/GS__0015.tiles/pano_%s.jpg" />
+</image>
+<!-- <hotspot name="GS__0016" style="floorspot" linkedscene="GS__0016" tx="0" tz="0" /> -->
+</scene>
+
+
+<scene name="GS__0016" floor_id="1" bridge="true" >
+<preview url="panos/GS__0016.tiles/preview.jpg" />
+<image prealign="0|-8.4|0">
+<cube url="panos/GS__0016.tiles/pano_%s.jpg" />
+</image>
+<hotspot name="GS__0018" style="floorspot" linkedscene="GS__0018" tx="-242" tz="2" />
+<hotspot name="stairwell" style="blank" stair="1st Floor" atv="21" ath="-168"/>
+</scene>
+
+
+<scene name="GS__0017" floor_id="1" >
+<preview url="panos/GS__0017.tiles/preview.jpg" />
+<image prealign="0|0|0">
+<cube url="panos/GS__0017.tiles/pano_%s.jpg" />
+</image>
+<!-- <hotspot name="GS__0018" style="floorspot" linkedscene="GS__0018" tx="0" tz="0" /> -->
+<!-- <hotspot name="GS__0019" style="floorspot" linkedscene="GS__0019" tx="0" tz="0" /> -->
+</scene>
+
+
+<scene name="GS__0018" floor_id="1" >
+<preview url="panos/GS__0018.tiles/preview.jpg" />
+<image prealign="0|-36.2|0">
+<cube url="panos/GS__0018.tiles/pano_%s.jpg" />
+</image>
+<hotspot name="GS__0019" style="floorspot" linkedscene="GS__0019" tx="10" tz="-311" />
+</scene>
+
+
+<scene name="GS__0019" floor_id="1" >
+<preview url="panos/GS__0019.tiles/preview.jpg" />
+<image prealign="0|-73.7|0">
+<cube url="panos/GS__0019.tiles/pano_%s.jpg" />
+</image>
+<hotspot name="GS__0020" style="floorspot" linkedscene="GS__0020" tx="91" tz="-440" />
+</scene>
+
+
+<scene name="GS__0020" floor_id="1" >
+<preview url="panos/GS__0020.tiles/preview.jpg" />
+<image prealign="4|-36.0|0">
+<cube url="panos/GS__0020.tiles/pano_%s.jpg" />
+</image>
+<!-- <hotspot name="GS__0021" style="floorspot" linkedscene="GS__0021" tx="0" tz="0" /> -->
+</scene>
+
+
+<scene name="GS__0021" floor_id="2" bridge="true">
+<preview url="panos/GS__0021.tiles/preview.jpg" />
+<image prealign="0|-45.0|0">
+<cube url="panos/GS__0021.tiles/pano_%s.jpg" />
+</image>
+<hotspot name="GS__0022" style="floorspot" linkedscene="GS__0022" tx="-396" tz="-18" />
+<hotspot name="stairwell" style="blank" stair="2nd Floor" atv="21" ath="-12"/>
+<hotspot name="GS__0024" style="floorspot" linkedscene="GS__0024" tx="55" tz="-179" />
+<hotspot name="GS__0025" style="floorspot" linkedscene="GS__0025" tx="303" tz="51" />
+<hotspot name="bathroom" style="poi|bathroom" atv="-28" ath="130"/>
+</scene>
+
+
+<scene name="GS__0022" floor_id="2" >
+<preview url="panos/GS__0022.tiles/preview.jpg" />
+<image prealign="4|-41.4|0">
+<cube url="panos/GS__0022.tiles/pano_%s.jpg" />
+</image>
+<hotspot name="GS__0023" style="floorspot" linkedscene="GS__0023" tx="-467" tz="-13" />
+
+</scene>
+
+
+<scene name="GS__0023" floor_id="2" >
+<preview url="panos/GS__0023.tiles/preview.jpg" />
+<image prealign="4|-26.4|0">
+<cube url="panos/GS__0023.tiles/pano_%s.jpg" />
+</image>
+<!-- <hotspot name="GS__0024" style="floorspot" linkedscene="GS__0024" tx="0" tz="0" /> -->
+</scene>
+
+
+<scene name="GS__0024" floor_id="2" >
+<preview url="panos/GS__0024.tiles/preview.jpg" />
+<image prealign="0|-68.3|0">
+<cube url="panos/GS__0024.tiles/pano_%s.jpg" />
+</image>
+<!-- <hotspot name="GS__0025" style="floorspot" linkedscene="GS__0025" tx="0" tz="0" /> -->
+</scene>
+
+
+<scene name="GS__0025" floor_id="2" >
+<preview url="panos/GS__0025.tiles/preview.jpg" />
+<image prealign="4|218.8|0">
+<cube url="panos/GS__0025.tiles/pano_%s.jpg" />
+</image>
+</scene>
+
+
+<!-- #endregion -->
+
+
+
+
+<include url="project_data.xml" />
+  </krpano>

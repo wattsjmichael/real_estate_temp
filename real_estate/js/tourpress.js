@@ -148,7 +148,7 @@ embedpano({
     initvars: {
         maps:'./maps/',
         skin: 'ak',
-        app_version: 'app-bxp',
+        app_version: 'real_estate',
         startfloor: startfloor,
         ios: isIpadOS() || isiOS(),
         mode: sessionStorage.getItem("mode"),

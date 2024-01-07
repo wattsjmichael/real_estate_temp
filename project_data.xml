@@ -50,11 +50,11 @@
 
         ]]>  </data>
 
-  <layer if="mode == 'explore'" name="items_hud" style="items_hud_style">
+  <!-- <layer if="mode == 'explore'" name="items_hud" style="items_hud_style">
     <layer name="first_aid" style="item_hud_style" url="../%$app_version%/skin/%$skin%/hotspots/first_aid.png" scale=".25" align="middle" onclick="hud_focus(90)" />
     <layer name="defib" style="item_hud_style" url="../%$app_version%/skin/%$skin%/hotspots/aed.png" scale=".25" align="middle" x="-60" onclick="hud_focus(90)" />
     <layer name="pull_station" style="item_hud_style" url="../%$app_version%/skin/%$skin%/hotspots/fire_alarm.png" scale=".25" align="middle" x="60" onclick="hud_focus(90)" />
-  </layer>
+  </layer> -->
 
 
 
@@ -244,7 +244,7 @@
 
 
   <!-- main app include -->
-  <include url="../%$app_version%/app.xml" />
+  <include url="%$app_version%/app.xml" />
   <!-- <plugin if="mode == 'explore'" name="overlay" url="overlay_explore_nfcu.js" keep="true" visible="false" capture="true" /> -->
 
 

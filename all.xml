@@ -15,6 +15,7 @@
 
 			make_symbolic_link("gs__0020","gs__0010");
 			make_symbolic_link("gs__0021","gs__0016");
+			make_symbolic_link("gs__0004","gs__0014");
 
 
 	</action>
